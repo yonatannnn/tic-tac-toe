@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="ox.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OX</title>
+
+</head>
+<body>
+<div class = " main ">
+    <div class="title">
+        <span class = "titlee">TIC-TAC-TOE</span>
+    </div>
+    <div class="player_name">
+        <h3></h3>
+    </div>
+    <div class="field">
+        <div class="buttons" id="one" onclick="
+        if(numbers.includes(1)){
+         changer(1,'one');
+        turn_changer(1);
+        reduce(1)
+        append(1)
+        check()
+        check_reseter()
+
+        }
+        ">.</div>
+        <div class="buttons" id="two" onclick="
+        if(numbers.includes(2)){
+         changer(2,'two')
+            turn_changer(2)
+            reduce(2)
+            append(2)
+            check()
+            check_reseter()
+        }
+        ">.</div>
+        <div class="buttons" id="three" onclick="
+        if(numbers.includes(3)){
+            changer(3,'three')
+            turn_changer(3)
+            reduce(3)
+            append(3)
+            check()
+            check_reseter()
+        }
+
+            ">.</div>
+        <div class="buttons" id="four" onclick="
+        if(numbers.includes(4)){
+         changer(4,'four')
+            turn_changer(4)
+            reduce(4)
+            append(4)
+            check()
+            check_reseter()
+        }
+            ">.</div>
+        <div class="buttons" id="five" onclick="
+        if(numbers.includes(5)){
+            changer(5,'five')
+            turn_changer(5)
+            reduce(5)
+            append(5)
+            check()
+            check_reseter()
+        }
+
+                ">.</div>
+        <div class="buttons" id="six" onclick="
+        if(numbers.includes(6)){
+            changer(6,'six')
+                turn_changer(6)
+                reduce(6)
+                append(6)
+               check()
+               check_reseter()
+        }
+
+                ">.</div>
+        <div class="buttons" id="seven" onclick="
+        if(numbers.includes(7)){
+            changer(7,'seven')
+            turn_changer(7)
+            reduce(7)
+            append(7)
+            check()
+            check_reseter()
+        }
+
+                ">.</div>
+        <div class="buttons" id="eight" onclick="
+        if(numbers.includes(8)){
+            changer(8,'eight')
+            turn_changer(8)
+            reduce(8)
+            append(8)
+            check()
+            check_reseter()
+        }
+
+            ">.</div>
+        <div class="buttons" id="nine" onclick="
+        if(numbers.includes(9)){
+            changer(9,'nine')
+            turn_changer(9)
+            reduce(9)
+            append(9)
+           check()
+           check_reseter()
+        }
+
+                    ">.</div>
+
+    </div>
+    <div class = "button_container"><button class = "reset_button" onclick="reset()">reset score</button>
+        <a href="index.html"><button class = "reset_button" onclick="reset_game()">reset game</button></a>
+    <button class = "reset_button" onclick="reseter();">restart game</button></div>
+</div>
+
+<div class = "footer"></div>
+
+
+<script src="ox.js">
+    update();
+</script>
+</body>
+</html>

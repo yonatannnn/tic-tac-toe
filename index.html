@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="name-.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login</title>
+</head>
+<body>
+<div class = "Body"></div>
+<div class = "container">
+    <div class = "first">First player name - <input id = "First_player_name" type = "text" placeholder="First player name"></div>
+    <div class = "second">Second player name - <input id = "Second_player_name" type = "text" placeholder="Second player name"></div>
+    <div class = "login-button"><a href="ox.html">
+        <button class="login-button" onclick="
+            localStorage.setItem('First_player' , document.querySelector('#First_player_name').value);
+            localStorage.setItem('Second_player' , document.querySelector('#Second_player_name').value);
+">start</button>
+    </a></div>
+</div>
+
+<script src="ox.js">
+</script>
+</body>
+</html>

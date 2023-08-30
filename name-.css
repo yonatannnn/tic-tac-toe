@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    width : 800px;
+    height: 200px;
+    background-color: #fff2f0;
+    box-shadow: black;
+}
+.username{
+    margin-top: 5px;
+}
+.password{
+    margin-top: 10px;
+}
+
+.login-button{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.Body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.login-button{
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: #fff2f0;
+    padding-bottom: 20px;
+    font-size: x-large;
+    font-style: italic;
+    font-family: Calibri;
+
+}
+
+#First_player_name, #Second_player_name{
+    height: 30px;
+    width: 200px;
+    color: black;
+    background-color: white;
+}
+
+.first,.second{
+    font-size: x-large;
+}
+
+.second {
+    margin-top: 20px;
+}
